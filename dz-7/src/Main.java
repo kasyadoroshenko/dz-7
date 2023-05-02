@@ -13,7 +13,7 @@ public class Main {
         System.out.println(SolarSys.Jupiter.getRadius());
         System.out.println(SolarSys.Earth.getPreviousPlanet());
         System.out.println(SolarSys.Saturn.getDistanceToTheSun());
-        System.out.println(SolarSys.Uranus.getDistanceToTheNextPlanet());
+        System.out.println(SolarSys.Uranus.getDistanceFromThePreviousPlanet());
         System.out.println(SolarSys.Earth.getDistanceToTheNextPlanet());
     }
 }
